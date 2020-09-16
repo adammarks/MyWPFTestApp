@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWPFTestApp", "MyWPFTestApp\MyWPFTestApp.csproj", "{787B20B1-7A9E-41A2-9A63-5C9BD84566A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITests", "UITests\UITests.csproj", "{7F55414D-010D-4886-B674-E5C94F173C94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{787B20B1-7A9E-41A2-9A63-5C9BD84566A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{787B20B1-7A9E-41A2-9A63-5C9BD84566A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{787B20B1-7A9E-41A2-9A63-5C9BD84566A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F55414D-010D-4886-B674-E5C94F173C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F55414D-010D-4886-B674-E5C94F173C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F55414D-010D-4886-B674-E5C94F173C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F55414D-010D-4886-B674-E5C94F173C94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

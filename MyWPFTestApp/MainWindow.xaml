@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="175.167" Width="555">
    <Grid Margin="0,0,0,52">
-      <TextBox Name="textBox" HorizontalAlignment="Left" Height="25" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" Margin="10,11,0,0"/>
-      <Button Name="copyTextButton" Content="Copy Text" HorizontalAlignment="Left" Height="25" Margin="131,0,0,55" VerticalAlignment="Bottom" Width="92" RenderTransformOrigin="0.016,-2.654" Click="copyTextButton_Click"/>
-      <Label Name="label" Content="Label" HorizontalAlignment="Left" Height="25" Margin="228,12,0,0" VerticalAlignment="Top" Width="146" RenderTransformOrigin="0.332,-3.076"/>
-      <Button Name="exitButton" Content="Exit" HorizontalAlignment="Left" Height="25" Margin="379,13,0,0" VerticalAlignment="Top" Width="72" Click="exitButton_Click"/>
+      <TextBox x:Uid="textBox" Name="textBox" HorizontalAlignment="Left" Height="25" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" Margin="10,11,0,0"/>
+      <Button x:Uid="copyTextButton" Name="copyTextButton" Content="Copy Text" HorizontalAlignment="Left" Height="25" Margin="131,0,0,55" VerticalAlignment="Bottom" Width="92" RenderTransformOrigin="0.016,-2.654" Click="copyTextButton_Click"/>
+      <Label x:Uid="label" Name="label" Content="Label" HorizontalAlignment="Left" Height="25" Margin="228,12,0,0" VerticalAlignment="Top" Width="146" RenderTransformOrigin="0.332,-3.076"/>
+      <Button x:Uid="exitButton" Name="exitButton" Content="Exit" HorizontalAlignment="Left" Height="25" Margin="379,13,0,0" VerticalAlignment="Top" Width="72" Click="exitButton_Click"/>
    </Grid>
 </Window>
